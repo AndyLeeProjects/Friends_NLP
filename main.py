@@ -80,7 +80,7 @@ class FriendsScript:
 
         
     
-driver = webdriver.Chrome('C:\\NotionUpdate\\progress\\friends_NLP\\chromedriver.exe')
+driver = webdriver.Chrome('/Volumes/Programming/Friends_NLP/chromedriver')
 Friends = FriendsScript(driver)
 Friends.scrape_NumEpisodes()
 Friends.scrape_Scripts()
